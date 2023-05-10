@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="About.html">О нас</a></li>
+            <li><a href="Performers.html">Исполнители</a></li>
+            <li><a href="#">Вернуться на главную</a></li>
+        </ul>
+    </div>
+ 
+    <div class="content">
+        <div class="left-col">
+            <h1>МОЯ <br> МУЗЫКА</h1>
+        </div>
+ 
+        <div class="right-col">
+             
+<p>Нажмите здесь, Чтобы Прослушать</p>
+ 
+            <img src="image/8666551_play_circle_icon.png" id="icon">
+        </div>
+    </div>
+ 
+    <audio id="mysound">
+        <source src="media/Lofi⧸hip hop⧸Relax Music⧸Heaven Chant⧸Human LOFI Vibes🦄.mp3" type="audio/mp3">
+    </audio>
+ 
+    <script>
+        var mysound = document.getElementById("mysound");
+        var icon = document.getElementById("icon");
+ 
+    
+        icon.onclick = function() {
+            if (mysound.paused) {
+ 
+                mysound.play();
+                icon.src =
+"image/8666551_play_circle_icon.png";
+            } else {
+ 
+                mysound.pause();
+                icon.src =
+"image/8666549_pause_circle_icon.png";
+            }
+        }
+    </script>
+</body>
+</html>

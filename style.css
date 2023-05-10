@@ -1,0 +1,81 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(
+'https://img2.akspic.ru/attachments/originals/3/5/6/6/16653-zvuk-krupnyj_plan-tehnologia-tehnologii-muzyka-3597x2474.jpg');
+     
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav li {
+    float: right;
+    list-style: none;
+}
+
+.nav a {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: 550;
+    display: block;
+    padding: 5px 35px;
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+}
+
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+.left-col {
+    margin-left: 11%;
+}
+
+.left-col h1 {
+    font-size: 50px;
+    color: rgb(242, 221, 33);
+}
+
+.right-col {
+    float: right;
+    margin-right: 10%;
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p {
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+    margin-right: 20px;
+}
+
+.titletr {
+    font-size: 31px;
+    color:aliceblue;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.rer{
+    padding-left: 5%;
+    padding-top: 5%;
+    max-width: 50%;
+    max-height: 50%;
+}
+#icon {
+    cursor: pointer;
+}
